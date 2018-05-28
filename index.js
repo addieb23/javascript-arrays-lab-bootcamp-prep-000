@@ -44,3 +44,9 @@ function removeLastKitten(){
   let newKit = kitties.pop()
   return newKit
 }
+
+function removeFirstKitten(){
+  kittens = ['Milo', 'Otis', 'Garfield'];
+  let newKittie = kittens.shift()
+  return newKittie
+}

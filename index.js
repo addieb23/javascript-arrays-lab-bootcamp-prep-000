@@ -35,7 +35,7 @@ function appendKitten(name){
 
 function prependKitten(name){
   kittens = ['Milo', 'Otis', 'Garfield'];
-  let newKitties = kittens.unshift(name)
+  let newKitties = [name, ...kittens]
   return newKitties
 }
 

@@ -29,12 +29,18 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   kittens = ['Milo', 'Otis', 'Garfield'];
-  let newKittens = kittens.push()
+  let newKittens = kittens.push(name)
   return newKittens
 }
 
 function prependKitten(name){
   kittens = ['Milo', 'Otis', 'Garfield'];
-  let newKitties = kittens.unshift()
+  let newKitties = kittens.unshift(name)
   return newKitties
+}
+
+function removeLastKitten(){
+  kittens = ['Milo', 'Otis', 'Garfield'];
+  let newKit = kitties.pop()
+  return newKit
 }

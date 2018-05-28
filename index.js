@@ -41,12 +41,12 @@ function prependKitten(name){
 
 function removeLastKitten(){
   kittens = ['Milo', 'Otis', 'Garfield'];
-  let newKit = kitties.pop()
+  let newKit = kitties.slice(-1)
   return newKit
 }
 
 function removeFirstKitten(){
   kittens = ['Milo', 'Otis', 'Garfield'];
-  let newKittie = kittens.shift()
+  let newKittie = kittens.slice(1)
   return newKittie
 }
